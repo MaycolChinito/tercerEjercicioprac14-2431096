@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tercerEjercicio.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout  Margin="20,35,20,20">
+
+            <Image Source="calificacion.png" WidthRequest="100"/>
+
+            <Entry x:Name="num1" Placeholder="Ingrese numero1"
+                   Keyboard="Numeric"/>
+
+            <Entry x:Name="num2" Placeholder="Ingrese numero2"
+                   Keyboard="Numeric"/>
+
+            <Entry x:Name="num3" Placeholder="Ingrese numero3"
+                   Keyboard="Numeric"/>
+
+            <Entry x:Name="num4" Placeholder="Ingrese numero4"
+                   Keyboard="Numeric"/>
+
+            <Entry x:Name="num5" Placeholder="Ingrese numero5"
+                   Keyboard="Numeric"/>
+
+            <Entry x:Name="Respuesta" 
+                   Keyboard="Numeric"/>
+            
+            <Button Text="Listo"
+                    Clicked="Button_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
